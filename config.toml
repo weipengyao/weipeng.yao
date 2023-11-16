@@ -1,3 +1,37 @@
 languageCode = 'en-us'
 title = 'Weipeng YAO'
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "my personal website"
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+  commentoEnable = true
+  disqusShortname = yaowp
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/yy2zz1"
+name = "github"
+url = "https://github.com/weipengyao"
+name = "linkedin"
+url = "https://www.linkedin.com/in/weipeng-yao-a06015289/"
+name = "google scholar"
+url = "https://scholar.google.com/citations?user=gzxsWFIAAAAJ&hl=en"
