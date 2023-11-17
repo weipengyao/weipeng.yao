@@ -9,6 +9,7 @@ profile_picture: "profile.png"
 cv: "cv.pdf"
 # set to false if you don't want to show your blog
 blog: false
+projects: false
 
 socials:
     twitter: "yy2zz1"
@@ -17,8 +18,9 @@ socials:
     google_scholar: "citations?user=gzxsWFIAAAAJ&hl=en"
 
 interests:
-    - Laser-plasma physics
+    - Laser-plasma interaction
     - Laboratory astrophysics
+    - Laser-driven secondary sources
     - High-power laser experiments
     - Numerical simulations
 
