@@ -20,13 +20,14 @@ socials:
 interests:
     - Laser-plasma interaction
     - Laboratory astrophysics
+    - Beam-plasma instabilities
     - Laser-driven secondary sources
     - High-power laser experiments
-    - Numerical simulations
+    - Advanced computational modeling 
 
 affiliations:
     - affiliation:
-        title: "Ph.D."
+        title: "Postdoc"
         name: "Ecole Polytechnique"
         email: "yao.weipeng@polytechnique.edu"
 
