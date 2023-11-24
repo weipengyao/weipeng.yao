@@ -23,7 +23,9 @@ interests:
     - Beam-plasma instabilities
     - Laser-driven secondary sources
     - High-power laser experiments
-    - Advanced computational modeling 
+    - Advanced computational modeling
+    - micro-physics of cosmic-ray transport
+    - particle-turbulence interaction 
 
 affiliations:
     - affiliation:
