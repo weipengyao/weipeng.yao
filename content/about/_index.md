@@ -19,8 +19,8 @@ socials:
 
 interests:
     - Laboratory astrophysics
-        - magnetized shock acceleration
-        - stochastic acceleration in turbulence 
+    - magnetized shock acceleration
+    - stochastic acceleration in turbulence 
     - Laser-plasma interaction
     - Beam-plasma instabilities
     - Laser-driven secondary sources
