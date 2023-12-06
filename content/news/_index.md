@@ -15,9 +15,5 @@ news_items:
   link: https://indico.ijclab.in2p3.fr/event/9522/contributions/31869/
   extra_text: "[AG GDR-APPEL](https://indico.ijclab.in2p3.fr/event/9522/), l’Orme des Merisiers, Nov. 2023"
   date: 2023-11-14
-- text: "How to write a good paper?"
-  link: https://https://feathericons.com//
-  extra_text: "HotOS'19."
-  icon: "youtube"
-  date: 2020-11-20
+
 ---

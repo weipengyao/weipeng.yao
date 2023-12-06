@@ -16,6 +16,3 @@ links:
     # video: https://github.com/hadisinaee/avicenna
 
 ---
-
-
-[See the wiki page for tutorial!](https://github.com/hadisinaee/avicenna/wiki)

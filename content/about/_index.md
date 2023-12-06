@@ -18,14 +18,15 @@ socials:
     google_scholar: "citations?user=gzxsWFIAAAAJ&hl=en"
 
 interests:
-    - Laser-plasma interaction
     - Laboratory astrophysics
+        - magnetized shock acceleration
+        - stochastic acceleration in turbulence 
+    - Laser-plasma interaction
     - Beam-plasma instabilities
     - Laser-driven secondary sources
     - High-power laser experiments
-    - Advanced computational modeling
-    - micro-physics of cosmic-ray transport
-    - particle-turbulence interaction 
+    - MHD/PIC/MHD-PIC simulations
+ 
 
 affiliations:
     - affiliation:
@@ -58,6 +59,6 @@ academia:
 
 I am a posdoc researcher ([ORCID](https://orcid.org/0000-0002-6017-9300)) at Centre national de la recherche scientifique (CNRS), France. 
 
-I work in the research groups of [Julien Fuchs](https://luli.ip-paris.fr/en/scientists/equipes-de-recherche/sprint-sources-de-particules-rayonnement-intenses) (Ecole Polytechnique) and [Andrea Ciardi](https://sites.google.com/site/andreaciardihomepage/home) (Sorbonne University). 
+I work in the research groups of [Julien Fuchs](https://luli.ip-paris.fr/en/scientists/equipes-de-recherche/sprint-sources-de-particules-rayonnement-intenses) (LULI & Ecole Polytechnique) and [Andrea Ciardi](https://sites.google.com/site/andreaciardihomepage/home) (LERMA & Sorbonne University). 
 
-My research focuses on both laser-plasma physics and magnetized laboratory astrophysics.
+My research focuses on both laser-plasma physics and magnetized laboratory astrophysics, with the methods of both advanced computational modeling and high-power laser experiments.
