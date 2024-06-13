@@ -37,7 +37,7 @@ affiliations:
 academia:
     - course:
         degree: "Ph.D."
-        institution:  "Peking University"
+        institution:  "Peking University, China"
         major: "Plasma physics"
         start_date: "2015"
         end_date: "2019"

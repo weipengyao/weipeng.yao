@@ -20,12 +20,12 @@ news_items:
 - text: "invited talk in Société Française d’Astronomie & d’Astrophysique (SF2A), Session 16, Ondes de choc en Astrophysique"
   link: https://journees.sf2a.eu/ateliers/s16/
   extra_text: "Marseille, France. June 4-7"
-  date: 2024-06-7
+  date: 2024-06-07
 
-news_items:
-- text: "invited talk about our recent results at Apollon SFA with 1-2 PW laser beams"
-  link: https://indico.ijclab.in2p3.fr/event/9522/contributions/31869/
-  extra_text: "[AG GDR-APPEL](https://indico.ijclab.in2p3.fr/event/9522/), l’Orme des Merisiers, Nov. 2023"
-  date: 2023-11-14
+# news_items:
+# - text: "invited talk about our recent results at Apollon SFA with 1-2 PW laser beams"
+#   link: https://indico.ijclab.in2p3.fr/event/9522/contributions/31869/
+#   extra_text: "[AG GDR-APPEL](https://indico.ijclab.in2p3.fr/event/9522/), l’Orme des Merisiers, Nov. 2023"
+#   date: 2023-11-14
 
 ---
