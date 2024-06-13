@@ -16,7 +16,7 @@ news_items:
   extra_text: "IRAP, Toulouse, France. June 10-12"
   date: 2024-06-12
 
-news_items:
+# news_items:
 - text: "invited talk in Société Française d’Astronomie & d’Astrophysique (SF2A), Session 16, Ondes de choc en Astrophysique"
   link: https://journees.sf2a.eu/ateliers/s16/
   extra_text: "Marseille, France. June 4-7"
