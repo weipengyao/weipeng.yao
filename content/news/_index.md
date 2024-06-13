@@ -8,7 +8,7 @@ headless: true
 show_news_icons: true
 default_news_icon: "file-text"
 
-num_news: 2
+num_news: 3
 
 news_items:
 - text: "invited talk in workshop PHYSIQUE DES PLASMAS DANS L’UNIVERS À HAUTE ÉNERGIE"
@@ -21,6 +21,12 @@ news_items:
   link: https://journees.sf2a.eu/ateliers/s16/
   extra_text: "Marseille, France. June 4-7"
   date: 2024-06-07
+
+- text: "invited talk in the International Conference on Matter and Radiation at Extremes (ICMRE)"
+  link: https://pubs.aip.org/aip/mre/pages/youngscientist
+  extra_text: "Hangzhou, China. May 13-17"
+  date: 2024-05-18
+
 
 # news_items:
 # - text: "invited talk about our recent results at Apollon SFA with 1-2 PW laser beams"
