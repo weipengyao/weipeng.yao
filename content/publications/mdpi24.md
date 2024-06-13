@@ -10,7 +10,8 @@ publication: "Under Review"
 links:
     # publisher: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.265101
     # arxiv: https://arxiv.org/abs/2211.06036
-    pdf: https://www.preprints.org/manuscript/202405.1784/v1
+    preprint: https://www.preprints.org/manuscript/202405.1784/v1
+    # pdf: https://www.preprints.org/manuscript/202405.1784/v1
     # code: https://github.com/hadisinaee/avicenna
     # slides: https://github.com/hadisinaee/avicenna
     # video: https://github.com/hadisinaee/avicenna
