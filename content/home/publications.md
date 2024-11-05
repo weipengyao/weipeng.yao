@@ -8,7 +8,7 @@ content_type: 'publications'
 section_settings:
     show_section: true
     title: 'Publications'
-    subtitle: 'see my [google scholar page](https://scholar.google.com/citations?user=gzxsWFIAAAAJ&hl=en) for the latest list'    
+    subtitle: 'see my google scholar page for the latest list'    
 ---
 
 home/publications.md
