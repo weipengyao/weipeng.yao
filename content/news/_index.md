@@ -8,9 +8,15 @@ headless: true
 show_news_icons: true
 default_news_icon: "file-text"
 
-num_news: 5
+num_news: 6
 
 news_items:
+
+- text: "Oral presentation in the 50th EPS Conference on Plasma Physics"
+  link: https://www.ccm-events.com/epsplasma2024/imagenes/comunicaciones/5-PS_Basic_Space/0041-Abstract_W_YAO.pdf
+  extra_text: "Salamanca, Spain. July 8-12"
+  date: 2024-07-12
+
 - text: "invited talk in workshop PHYSIQUE DES PLASMAS DANS L’UNIVERS À HAUTE ÉNERGIE"
   link: https://www.irap.omp.eu/astroplasma/2024/02/22/atelier-physique-des-plasmas-dans-lunivers-a-haute-energie/
   extra_text: "IRAP, Toulouse, France. June 10-12"

@@ -8,7 +8,7 @@ date: "2024-05-27"
 publication: "Under Review"
 
 links:
-    # publisher: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.265101
+    publisher: https://www.mdpi.com/2076-3417/14/14/6101
     # arxiv: https://arxiv.org/abs/2211.06036
     preprint: https://www.preprints.org/manuscript/202405.1784/v1
     # pdf: https://www.preprints.org/manuscript/202405.1784/v1
