@@ -19,19 +19,17 @@ socials:
 
 interests:
     - Laboratory astrophysics
-    - magnetized shock acceleration
-    - stochastic acceleration in turbulence 
-    # - Laser-plasma interaction
-    # - Beam-plasma instabilities
-    - Laser-driven secondary sources
-    # - High-power laser experiments
-    - MHD/PIC/MHD-PIC simulations
+    - Collisionless shock acceleration
+    - Magnetized plasma physics
+    - Turbulence and particle energization
+    - High-power laser experiments (APOLLON, VULCAN, ELI-NP)
+    - PIC / MHD / hybrid simulations
  
 
 affiliations:
     - affiliation:
         title: "Postdoc"
-        name: "LERMA, Observatoire de Paris"
+        name: "Sorbonne Université (LULI)"
         email: "weipeng.yao@obspm.fr"
 
 academia:
@@ -57,8 +55,6 @@ academia:
     #     end_date: '2012'
 ---
 
-I am a posdoc researcher ([ORCID](https://orcid.org/0000-0002-6017-9300)) at LERMA, Observatoire de Paris (PSL), Paris, France. 
+I am a postdoc researcher ([ORCID](https://orcid.org/0000-0002-6017-9300)) at [LULI, Sorbonne Université](https://luli.ip-paris.fr/en/scientists/equipes-de-recherche/sprint-sources-de-particules-rayonnement-intenses), Paris, France, in the group of [Julien Fuchs](https://luli.ip-paris.fr/en/scientists/equipes-de-recherche/sprint-sources-de-particules-rayonnement-intenses) (LULI & Ecole Polytechnique).
 
-I work in the research groups of [Andrea Ciardi](https://sites.google.com/site/andreaciardihomepage/home) (LERMA & Sorbonne University) and [Julien Fuchs](https://luli.ip-paris.fr/en/scientists/equipes-de-recherche/sprint-sources-de-particules-rayonnement-intenses) (LULI & Ecole Polytechnique). 
-
-My research focuses on both laser-plasma physics and magnetized laboratory astrophysics, with the methods of both advanced computational modeling (by using PIC/MHD/MHD-PIC codes) and high-power laser experiments (at APOLLON, VULCAN, and LULI2000).
+My research is at the interface between magnetized plasma physics in extreme regimes, laboratory astrophysics, and particle acceleration in non-thermal environments. I combine advanced computational modeling (PIC, MHD, hybrid PIC-MHD codes) with high-power laser experiments (APOLLON, VULCAN, ELI-NP).

@@ -5,7 +5,7 @@ authors:
 - Lelièvre, R.; Waltenspiel, T.; Cohen, I.; Allaoua, A.; Beck, A.; Cohen, E.; Davoine, X.; D'Humieres, E.; Ducasse, Q.; Filippov, E.; Gautier, C.; Gremillet, L.; Koseoglou, P.; Michaeli, D.; Papadopoulos, D.; Pikuz, S.; Pomerantz, I.; Trompier, F.; Yuan, Y.; Mathieu, F.; Fuchs, J.
 date: "2024-05-27"
 
-publication: "Under Review"
+publication: "Applied Sciences"
 
 links:
     publisher: https://www.mdpi.com/2076-3417/14/14/6101

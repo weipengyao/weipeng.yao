@@ -8,9 +8,38 @@ headless: true
 show_news_icons: true
 default_news_icon: "file-text"
 
-num_news: 6
+num_news: 9
 
 news_items:
+
+- text: "New postdoc position at Sorbonne Université (LULI)"
+  extra_text: "Paris, France. Starting 2025"
+  date: 2025-01-01
+
+- text: "MSCA Postdoctoral Fellowship 2026 awarded – score 99/100 (top 1.83%)"
+  extra_text: "Marie Skłodowska-Curie Actions"
+  date: 2025-11-01
+
+- text: "Invited talk at HEDLA2026 – High Energy Density Laboratory Astrophysics"
+  extra_text: "Yokohama, Japan. April 20-24, 2026"
+  date: 2026-04-20
+
+- text: "Talk at Lorentz Center Workshop on magnetized shocks"
+  extra_text: "Leiden, the Netherlands. 2025"
+  date: 2025-06-01
+
+- text: "Talk at ILP Forum – Le Reverdi, France"
+  extra_text: "2025"
+  date: 2025-05-01
+
+- text: "Talk at GDR SCIPAC – Orsay, France"
+  extra_text: "2025"
+  date: 2025-03-01
+
+- text: "MRE Young Scientist Award 2024"
+  link: https://pubs.aip.org/aip/mre/pages/youngscientist
+  extra_text: "Matter and Radiation at Extremes"
+  date: 2024-12-01
 
 - text: "Oral presentation in the 50th EPS Conference on Plasma Physics"
   link: https://www.ccm-events.com/epsplasma2024/imagenes/comunicaciones/5-PS_Basic_Space/0041-Abstract_W_YAO.pdf
