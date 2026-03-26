@@ -1,0 +1,83 @@
+{{ $content_type := .Params.content_type }}
+
+{{ $aboutPage := .Site.GetPage $content_type }}
+
+{{ if or $aboutPage.Params.academia $aboutPage.Params.interests}}
+{{ if $aboutPage.Params.interests }}
+<div class="interests col ">
+    <h4 class="main_color">Interests</h4>
+    <ul>
+        {{range $aboutPage.Params.interests }}
+        <li>
+            {{.}}
+        </li>
+        {{end}}
+    </ul>
+</div>
+{{end}}
+
+{{if $aboutPage.Params.academia}}
+<div class="academia col">
+    <h4 class="main_color">Education</h4>
+    {{range $academia := $aboutPage.Params.academia}}
+    <div class="row">
+        <div class="course col">
+            <div class="institution_dates row">
+                <div class="institution col" id="institution_title">
+                    {{$academia.course.institution}}
+                </div>
+                <div class="main_color dates col-md-auto  justify-content-end">
+                    {{$academia.course.start_date}}
+                    {{ if $academia.course.end_date }}
+                    - {{$academia.course.end_date}}
+                    {{else}}
+                    - present
+                    {{end}}
+                </div>
+            </div>
+            <div class="degree_major row">
+                <div class="text-muted col">
+                    {{$academia.course.degree}} {{$academia.course.major}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{end}}
+</div>
+{{end}}
+{{end}}
+
+{{if $aboutPage.Params.career}}
+<div class="row w-100" style="margin-top: 1.5rem;">
+    <div class="col w-100">
+        <h4 class="main_color">Career</h4>
+        {{range $pos := $aboutPage.Params.career}}
+        <div class="row" style="margin-bottom: 0.8rem;">
+            <div class="course col">
+                <div class="institution_dates row">
+                    <div class="institution col" id="institution_title">
+                        {{$pos.position.institution}}
+                    </div>
+                    <div class="main_color dates col-md-auto justify-content-end">
+                        {{$pos.position.start_date}}
+                        {{ if $pos.position.end_date }}
+                        – {{$pos.position.end_date}}
+                        {{else}}
+                        – present
+                        {{end}}
+                    </div>
+                </div>
+                <div class="degree_major row">
+                    <div class="text-muted col">
+                        {{$pos.position.title}}
+                        {{ if $pos.position.description }}
+                        — {{$pos.position.description}}
+                        {{end}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{end}}
+    </div>
+</div>
+{{end}}
