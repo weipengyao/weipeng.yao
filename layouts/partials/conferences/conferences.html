@@ -6,18 +6,29 @@
 <div class="conf-list row w-100">
     <div class="col w-100">
         {{ range first $num (sort $items "date" "desc") }}
-        <div class="conf-item row w-100">
-            <div class="col w-100">
+
+        {{/* Strip the <p>…</p> wrapper that markdownify adds */}}
+        {{ $rawText := printf "%s" (emojify .text | markdownify) }}
+        {{ $text    := $rawText | replaceRE `(?s)^\s*<p>` "" | replaceRE `</p>\s*$` "" }}
+
+        {{ $rawMeta := "" }}
+        {{ if .extra_text }}
+            {{ $rawMeta = printf "%s" (emojify .extra_text | markdownify) | replaceRE `(?s)^\s*<p>` "" | replaceRE `</p>\s*$` "" }}
+        {{ end }}
+
+        <div class="conf-item">
+            <span class="conf-body">
                 {{ if .link }}
-                <a href="{{ .link }}" target="_blank" class="conf-link">{{ markdownify (emojify .text) }}</a>
+                <a href="{{ .link }}" target="_blank">{{ $text | safeHTML }}</a>
                 {{ else }}
-                <span>{{ markdownify (emojify .text) }}</span>
+                {{ $text | safeHTML }}
                 {{ end }}
-                {{ if .extra_text }}
-                <span class="conf-meta text-muted">&ensp;·&ensp;{{ markdownify (emojify .extra_text) }}</span>
-                {{ end }}
-            </div>
+            </span>
+            {{ if $rawMeta }}
+            <span class="conf-meta">{{ $rawMeta | safeHTML }}</span>
+            {{ end }}
         </div>
+
         {{ end }}
     </div>
 </div>

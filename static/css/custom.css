@@ -1,4 +1,4 @@
-/* ── Profile picture: smaller and left-aligned ── */
+/* ── Profile picture: smaller ── */
 #profile_picture {
     width: 11%;
     max-width: 130px;
@@ -62,15 +62,15 @@ body {
     line-height: 1.55;
 }
 
-/* ── Education & Career headers ── */
+/* ── Sub-section headings (Interests, Education, Career) ── */
 .about .academia h4,
 h4.main_color {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     margin-top: 0.5rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
 }
 
 /* ── Institution / dates rows ── */
@@ -86,6 +86,12 @@ h4.main_color {
 .degree_major .col,
 .text-muted.col {
     font-size: 0.82rem;
+}
+
+/* ── Education: more space between each degree entry ── */
+.course {
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.75rem;
 }
 
 /* ── News list ── */
@@ -104,46 +110,66 @@ h4.main_color {
     color: #8C1515;
 }
 
-/* ── Conferences ── */
+/* ── Conferences: aligned rows ── */
+.conf-list {
+    margin-top: 0.5rem;
+}
+
 .conf-item {
-    padding: 0.22rem 0;
+    display: flex;
+    align-items: baseline;
+    padding: 0.25rem 0;
     font-size: 0.9rem;
     line-height: 1.5;
 }
 
-.conf-link {
-    color: inherit;
-    text-decoration: none;
-    font-weight: 500;
+.conf-body {
+    flex: 1;
+    color: #1a1a2e;
 }
 
-.conf-link:hover {
+.conf-body p {
+    margin: 0;
+    display: inline;
+}
+
+.conf-body a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: inherit;
+}
+
+.conf-body a:hover {
     color: #8C1515;
     text-decoration: underline;
 }
 
 .conf-meta {
-    font-size: 0.85rem;
+    white-space: nowrap;
+    margin-left: 0.6rem;
+    font-size: 0.82rem;
     font-style: italic;
+    color: #888;
 }
 
-/* ── Publications ── */
+/* ── Publications: year headers ── */
 .pub-year-header {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     font-weight: 700;
-    margin-top: 1.2rem;
-    margin-bottom: 0.3rem;
+    color: #2c5282;          /* steel blue — distinct from the section red */
+    margin-top: 1.6rem;
+    margin-bottom: 0.5rem;
     letter-spacing: 0.04em;
 }
 
 .pub-year-group {
-    border-left: 2px solid #e8e8e8;
-    padding-left: 0.8rem;
-    margin-bottom: 0.4rem;
+    border-left: 2px solid #e0e0e0;
+    padding-left: 0.9rem;
+    margin-bottom: 0.3rem;
 }
 
 .pub-item {
-    padding: 0.3rem 0;
+    padding: 0.32rem 0;
     font-size: 0.88rem;
     line-height: 1.55;
 }
@@ -152,6 +178,7 @@ h4.main_color {
     font-variant-numeric: tabular-nums;
     font-size: 0.8rem;
     margin-right: 0.3rem;
+    color: #999;
 }
 
 .pub-author {
@@ -167,7 +194,7 @@ h4.main_color {
 }
 
 .pub-link {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     font-weight: 600;
     text-decoration: none;
     margin-left: 0.25rem;
@@ -175,6 +202,7 @@ h4.main_color {
     border: 1px solid #8C1515;
     border-radius: 3px;
     white-space: nowrap;
+    color: #8C1515;
 }
 
 .pub-link:hover {

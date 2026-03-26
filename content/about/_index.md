@@ -24,8 +24,7 @@ interests:
     - Laser-driven magnetic field generation
     - Weakly collisional shock transport
     - Shock-turbulent interaction
-    - Turbulence and particle energization
-    - High-power laser experiments (APOLLON, VULCAN, ELI-NP)
+    - High-power laser experiments
     - PIC / MHD / hybrid simulations
  
 
