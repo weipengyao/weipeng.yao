@@ -1,0 +1,184 @@
+/* ── Profile picture: smaller and left-aligned ── */
+#profile_picture {
+    width: 11%;
+    max-width: 130px;
+    min-width: 70px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ── Name & affiliation block ── */
+.about #full_name {
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.about .affiliations #title,
+.about .affiliations #name {
+    font-size: 0.9rem;
+}
+
+.about #email {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+/* ── Social icons: more breathing room ── */
+.about .socials a {
+    margin-left: 0.55rem;
+    margin-right: 0.55rem;
+}
+
+.about .socials {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    gap: 0.2rem;
+}
+
+/* ── Body text ── */
+body {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: #1a1a2e;
+}
+
+/* ── Section titles ── */
+.section-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    border-bottom: 2px solid #8C1515;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+
+/* ── Interests list ── */
+.interests ul {
+    padding-left: 1.2rem;
+}
+.interests li {
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+
+/* ── Education & Career headers ── */
+.about .academia h4,
+h4.main_color {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+/* ── Institution / dates rows ── */
+#institution_title {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.dates {
+    font-size: 0.82rem;
+}
+
+.degree_major .col,
+.text-muted.col {
+    font-size: 0.82rem;
+}
+
+/* ── News list ── */
+.news_list li {
+    padding: 0.25rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.news_list svg {
+    width: 14px;
+    height: 14px;
+    stroke-width: 2px;
+    margin-right: 0.45rem;
+    vertical-align: middle;
+    color: #8C1515;
+}
+
+/* ── Conferences ── */
+.conf-item {
+    padding: 0.22rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.conf-link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.conf-link:hover {
+    color: #8C1515;
+    text-decoration: underline;
+}
+
+.conf-meta {
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* ── Publications ── */
+.pub-year-header {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.04em;
+}
+
+.pub-year-group {
+    border-left: 2px solid #e8e8e8;
+    padding-left: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.pub-item {
+    padding: 0.3rem 0;
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+
+.pub-num {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+}
+
+.pub-author {
+    font-weight: 500;
+}
+
+.pub-title {
+    font-style: italic;
+}
+
+.pub-journal {
+    font-size: 0.82rem;
+}
+
+.pub-link {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 0.25rem;
+    padding: 0.05rem 0.3rem;
+    border: 1px solid #8C1515;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+
+.pub-link:hover {
+    background-color: #8C1515;
+    color: white !important;
+    text-decoration: none;
+}

@@ -10,63 +10,47 @@
 
 <div class="publications row w-100">
     <div class="col w-100">
+
+        {{ $prevYear := "" }}
         {{ range $i, $page := $sorted }}
         {{ $num := sub $total $i }}
-        <div class="publication row  w-100">
+        {{ $year := $page.Params.date.Format "2006" }}
 
-            <div class="section-1 w-100">
-                <span class="text-muted" style="margin-right:0.4em;">[{{$num}}]</span>
-                <span>
-                    {{$page.Params.title}},
-                </span>
+        {{ if ne $year $prevYear }}
+            {{ if ne $prevYear "" }}</div>{{ end }}
+            <h5 class="pub-year-header main_color">{{ $year }}</h5>
+            <div class="pub-year-group">
+            {{ $prevYear = $year }}
+        {{ end }}
 
-                <span class="text-muted publication-date">
-                    {{substr ($page.Params.date.Format "2006-01-02") 0 4}},
-                </span>
-
-                <span class="text-muted publication-name">
-                    {{$page.Params.publication}}
-                </span>
-
-            </div>
-
-            <div class="section-2 text-muted w-100">
+        <div class="pub-item row w-100">
+            <div class="col w-100">
+                <span class="pub-num text-muted">[{{$num}}]</span>
 
                 {{ $authors := $page.Params.authors }}
-
                 {{ if $authors }}
-                {{range $i, $author := $authors}}
-                <span>
-                    {{$author}}
-                </span>
-                {{ if lt $i (sub (len $authors) 1)}}
-                <span class="separator">
-                    ,
-                </span>
-                {{end}}
-                {{end}}
-                {{end}}
+                <span class="pub-author">{{ index $authors 0 }} et al.</span>&thinsp;—&thinsp;
+                {{ end }}
 
+                <span class="pub-title">{{$page.Params.title}}</span>,&thinsp;
+
+                <span class="pub-journal text-muted">{{$page.Params.publication}}</span>
+
+                {{ $links := $page.Params.links }}
+                {{ if $links }}
+                {{ range $link_name, $link_url := $links }}
+                {{ if $link_url }}
+                <a class="pub-link main_color" href="{{$link_url}}" target="_blank">[{{$link_name}}]</a>
+                {{ end }}
+                {{ end }}
+                {{ end }}
             </div>
-
-            {{ $links := $page.Params.links }}
-            {{ if $links }}
-            <div class="section-3  w-100">
-                {{range $link_name, $link_url := $links}}
-                    {{ if $link_url }}
-                <a class="main_color text-decoration-none rounded" href="{{$link_url}}" target="_blank">
-                    {{$link_name}}
-                </a>
-                    {{end}}
-                {{end}}
-            </div>
-            {{end}}
-
         </div>
 
-        {{end}}
+        {{ end }}
+        {{ if $sorted }}</div>{{ end }}
 
     </div>
-    {{end}}
 </div>
+{{end}}
 {{end}}
