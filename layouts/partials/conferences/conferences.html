@@ -3,9 +3,9 @@
 {{ $items := $confPage.Params.news_items }}
 {{ $num := $confPage.Params.num_news }}
 
-<div class="conf-list">
+<ul class="conf-list">
     {{ range first $num (sort $items "date" "desc") }}
-    <div class="conf-item">
+    <li class="conf-item">
         <span class="conf-type">{{ .type }} &ndash;</span>
         {{ if .link }}
         <a class="conf-name" href="{{ .link }}" target="_blank">{{ .conf }}</a>
@@ -14,6 +14,6 @@
         {{ end }}
         {{ if .conf_long }}<span class="conf-long"> {{ .conf_long }}</span>{{ end }}
         {{ if .extra_text }}<span class="conf-meta"> &middot; {{ .extra_text }}</span>{{ end }}
-    </div>
+    </li>
     {{ end }}
-</div>
+</ul>
