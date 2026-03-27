@@ -88,19 +88,7 @@ h4.main_color {
     font-size: 0.82rem;
 }
 
-/* ── Education: more space between each degree entry ── */
-.edu-entry {
-    margin-top: 1.6rem !important;
-    margin-bottom: 0 !important;
-    padding-top: 1.2rem;
-    border-top: 1px solid #eee;
-}
-
-.academia .edu-entry:first-of-type {
-    margin-top: 0.5rem !important;
-    padding-top: 0;
-    border-top: none;
-}
+/* ── Education entries: spacing handled via inline style in template ── */
 
 /* ── News list ── */
 .news_list li {
