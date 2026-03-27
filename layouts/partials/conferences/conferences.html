@@ -3,32 +3,17 @@
 {{ $items := $confPage.Params.news_items }}
 {{ $num := $confPage.Params.num_news }}
 
-<div class="conf-list row w-100">
-    <div class="col w-100">
-        {{ range first $num (sort $items "date" "desc") }}
-
-        {{/* Strip the <p>…</p> wrapper that markdownify adds */}}
-        {{ $rawText := printf "%s" (emojify .text | markdownify) }}
-        {{ $text    := $rawText | replaceRE `(?s)^\s*<p>` "" | replaceRE `</p>\s*$` "" }}
-
-        {{ $rawMeta := "" }}
-        {{ if .extra_text }}
-            {{ $rawMeta = printf "%s" (emojify .extra_text | markdownify) | replaceRE `(?s)^\s*<p>` "" | replaceRE `</p>\s*$` "" }}
+<div class="conf-list">
+    {{ range first $num (sort $items "date" "desc") }}
+    <div class="conf-item">
+        <span class="conf-type">{{ .type }} &ndash;</span>
+        {{ if .link }}
+        <a class="conf-name" href="{{ .link }}" target="_blank">{{ .conf }}</a>
+        {{ else }}
+        <span class="conf-name">{{ .conf }}</span>
         {{ end }}
-
-        <div class="conf-item">
-            <span class="conf-body">
-                {{ if .link }}
-                <a href="{{ .link }}" target="_blank">{{ $text | safeHTML }}</a>
-                {{ else }}
-                {{ $text | safeHTML }}
-                {{ end }}
-            </span>
-            {{ if $rawMeta }}
-            <span class="conf-meta">{{ $rawMeta | safeHTML }}</span>
-            {{ end }}
-        </div>
-
-        {{ end }}
+        {{ if .conf_long }}<span class="conf-long"> {{ .conf_long }}</span>{{ end }}
+        {{ if .extra_text }}<span class="conf-meta"> &middot; {{ .extra_text }}</span>{{ end }}
     </div>
+    {{ end }}
 </div>

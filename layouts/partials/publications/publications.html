@@ -1,56 +1,39 @@
 {{ $content_type := .Params.content_type }}
 {{if $content_type}}
 {{ $t := .Site.GetPage $content_type }}
-{{ $rscPages := $t.Resources.ByType "page"}}
+{{ $rscPages := $t.Resources.ByType "page" }}
 
 {{if gt (len $rscPages) 0}}
-
 {{ $sorted := sort $rscPages "Params.date" "desc" }}
-{{ $total := len $sorted }}
+{{ $total  := len $sorted }}
 
-<div class="publications row w-100">
-    <div class="col w-100">
+<div class="publications">
+    {{ $prevYear := "" }}
+    {{ range $i, $page := $sorted }}
+    {{ $num  := sub $total $i }}
+    {{ $year := $page.Params.date.Format "2006" }}
 
-        {{ $prevYear := "" }}
-        {{ range $i, $page := $sorted }}
-        {{ $num := sub $total $i }}
-        {{ $year := $page.Params.date.Format "2006" }}
+    {{ if ne $year $prevYear }}
+        {{ if ne $prevYear "" }}</div>{{ end }}
+        <h5 class="pub-year-header">{{ $year }}</h5>
+        <div class="pub-year-group">
+        {{ $prevYear = $year }}
+    {{ end }}
 
-        {{ if ne $year $prevYear }}
-            {{ if ne $prevYear "" }}</div>{{ end }}
-            <h5 class="pub-year-header main_color">{{ $year }}</h5>
-            <div class="pub-year-group">
-            {{ $prevYear = $year }}
-        {{ end }}
+    <p class="pub-item">
+        <span class="pub-num">[{{ $num }}]</span>
+        {{ with $page.Params.authors }}<span class="pub-author">{{ index . 0 }} et al.</span> &mdash; {{ end -}}
+        <span class="pub-title">{{ $page.Params.title }}</span>,
+        <span class="pub-journal">{{ $page.Params.publication }}</span>
+        {{- with $page.Params.links -}}
+        {{- range $name, $url := . -}}
+        {{- if $url }} <a class="pub-link" href="{{ $url }}" target="_blank">[{{ $name }}]</a>{{- end -}}
+        {{- end -}}
+        {{- end }}
+    </p>
 
-        <div class="pub-item row w-100">
-            <div class="col w-100">
-                <span class="pub-num text-muted">[{{$num}}]</span>
-
-                {{ $authors := $page.Params.authors }}
-                {{ if $authors }}
-                <span class="pub-author">{{ index $authors 0 }} et al.</span>&thinsp;—&thinsp;
-                {{ end }}
-
-                <span class="pub-title">{{$page.Params.title}}</span>,&thinsp;
-
-                <span class="pub-journal text-muted">{{$page.Params.publication}}</span>
-
-                {{ $links := $page.Params.links }}
-                {{ if $links }}
-                {{ range $link_name, $link_url := $links }}
-                {{ if $link_url }}
-                <a class="pub-link main_color" href="{{$link_url}}" target="_blank">[{{$link_name}}]</a>
-                {{ end }}
-                {{ end }}
-                {{ end }}
-            </div>
-        </div>
-
-        {{ end }}
-        {{ if $sorted }}</div>{{ end }}
-
-    </div>
+    {{ end }}
+    {{ if $sorted }}</div>{{ end }}
 </div>
 {{end}}
 {{end}}
