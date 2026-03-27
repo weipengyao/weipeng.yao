@@ -90,8 +90,12 @@ h4.main_color {
 
 /* ── Education: more space between each degree entry ── */
 .course {
-    margin-top: 0.8rem !important;
-    margin-bottom: 0.8rem;
+    margin-top: 1.4rem !important;
+    margin-bottom: 1.4rem;
+}
+
+.academia .row:first-child .course {
+    margin-top: 0.4rem !important;
 }
 
 /* ── News list ── */
