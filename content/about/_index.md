@@ -41,12 +41,14 @@ academia:
         major: "Plasma physics"
         start_date: "2015"
         end_date: "2019"
+        other_info: "Supervisors: Bin Qiao, Xian-tu He"
     - course:
         degree: "M.Sc."
         institution: 'China Academy of Engineering Physics (CAEP)'
         major: 'Plasma physics'
         start_date: '2012'
         end_date: '2015'
+        other_info: "Supervisor: Baiwen Li"
     - course:
         degree: "B.Sc."
         institution: 'Shanxi University'

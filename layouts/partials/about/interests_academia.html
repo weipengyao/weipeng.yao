@@ -40,6 +40,13 @@
                     {{$academia.course.degree}} {{$academia.course.major}}
                 </div>
             </div>
+            {{if $academia.course.other_info}}
+            <div class="row">
+                <div class="text-muted col" style="font-size:0.8rem;">
+                    {{$academia.course.other_info}}
+                </div>
+            </div>
+            {{end}}
         </div>
     </div>
     {{end}}
