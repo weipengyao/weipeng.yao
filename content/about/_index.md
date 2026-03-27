@@ -18,14 +18,16 @@ socials:
     google_scholar: "citations?user=gzxsWFIAAAAJ&hl=en"
 
 interests:
-    - Laboratory astrophysics
-    - Collisionless shock acceleration
-    - Magnetized plasma physics
-    - Laser-driven magnetic field generation
-    - Weakly collisional shock transport
-    - Shock-turbulent interaction
     - High-power laser experiments
+    - Laser-driven magnetic field generation
+    - Laser-driven secondary sources
     - PIC / MHD / hybrid simulations
+    - Magnetized plasma physics
+    - Weakly collisional shock transport
+    - Collisionless shock acceleration
+    - Shock-turbulent interaction
+    - Laboratory astrophysics
+    - Cosmic-ray origin and transport
  
 
 affiliations:
@@ -80,6 +82,6 @@ career:
         description: "High-power laser HEDP experiments (Apollon, Vulcan, ELI-NP); diagnostic development (proton radiography) and hydrodynamic analysis; PIC code development."
 ---
 
-I am a postdoc researcher ([ORCID](https://orcid.org/0000-0002-6017-9300)) at [LULI, Sorbonne Université](https://luli.ip-paris.fr/en/scientists/equipes-de-recherche/sprint-sources-de-particules-rayonnement-intenses), Paris, France, in the theoretical group [TIPS](https://luli.ip-paris.fr/en/scientists/research-teams/tips-theorie-interpretation-plasma-simulations).
+I am a postdoc researcher ([ORCID](https://orcid.org/0000-0002-6017-9300)) at LULI, Sorbonne Université, Paris, France, in the theoretical group [TIPS](https://luli.ip-paris.fr/en/scientists/research-teams/tips-theorie-interpretation-plasma-simulations).
 
 My research is at the interface between magnetized plasma physics in extreme regimes, laboratory astrophysics, and particle acceleration in non-thermal environments. I combine advanced computational modeling (PIC, MHD, hybrid PIC-MHD codes) with high-power laser experiments (APOLLON, VULCAN, ELI-NP).
