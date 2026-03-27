@@ -89,13 +89,17 @@ h4.main_color {
 }
 
 /* ── Education: more space between each degree entry ── */
-.course {
-    margin-top: 1.4rem !important;
-    margin-bottom: 1.4rem;
+.edu-entry {
+    margin-top: 1.6rem !important;
+    margin-bottom: 0 !important;
+    padding-top: 1.2rem;
+    border-top: 1px solid #eee;
 }
 
-.academia .row:first-child .course {
-    margin-top: 0.4rem !important;
+.academia .edu-entry:first-of-type {
+    margin-top: 0.5rem !important;
+    padding-top: 0;
+    border-top: none;
 }
 
 /* ── News list ── */
