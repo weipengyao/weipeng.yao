@@ -70,8 +70,11 @@
                 <div class="degree_major row">
                     <div class="text-muted col">
                         {{$pos.position.title}}
+                        {{ if $pos.position.supervisor }}
+                        · Supervisor: {{$pos.position.supervisor}}
+                        {{end}}
                         {{ if $pos.position.description }}
-                        — {{$pos.position.description}}
+                        <br><span style="font-size:0.8rem;">{{$pos.position.description}}</span>
                         {{end}}
                     </div>
                 </div>

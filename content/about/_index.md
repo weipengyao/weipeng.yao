@@ -58,18 +58,21 @@ career:
     - position:
         title: "Postdoc"
         institution: "Sorbonne Université (LULI), Paris, France"
+        supervisor: "Anna Grassi"
         start_date: "Oct 2025"
         end_date: ""
         description: "Weakly collisional and collisionless shocks; laser-driven magnetic field generation; magnetized plasma dynamics; hybrid PIC-MHD simulations."
     - position:
         title: "Postdoc"
         institution: "Observatoire de Paris (LUX), Paris, France"
+        supervisor: "Andrea Ciardi"
         start_date: "2024"
         end_date: "2025"
         description: "Magnetized shocks, turbulence, laboratory astrophysics; non-thermal particle acceleration; MHD development and data analysis."
     - position:
         title: "Postdoc"
         institution: "CNRS / École Polytechnique (LULI), Paris, France"
+        supervisor: "Julien Fuchs"
         start_date: "2019"
         end_date: "2024"
         description: "High-power laser HEDP experiments (Apollon, Vulcan, ELI-NP); diagnostic development (proton radiography) and hydrodynamic analysis; PIC code development."
