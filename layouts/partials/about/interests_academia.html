@@ -78,7 +78,7 @@
                     <div class="text-muted col">
                         {{$pos.position.title}}
                         {{ if $pos.position.supervisor }}
-                        · Supervisor: {{$pos.position.supervisor}}
+                        · Supervisor: {{$pos.position.supervisor | safeHTML}}
                         {{end}}
                         {{ if $pos.position.description }}
                         <br><span style="font-size:0.8rem;">{{$pos.position.description}}</span>

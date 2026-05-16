@@ -12,11 +12,21 @@ num_news: 10
 
 news_items:
 
+- text: "Attending the [EXPAND Kickoff Conference](https://expand-plasma.eu/kickoff-conference.html) — the launch of the COST Action CA24149 *Extreme Plasma Network for Advanced Discovery*"
+  extra_text: "Lisbon Academy of Sciences, Portugal. 1–3 June 2026"
+  date: 2026-06-01
+
+- text: "Attending the workshop [Kinetic physics of astrophysical plasmas](https://indico.in2p3.fr/event/37720/overview)"
+  extra_text: "Montpellier, France. 18–20 May 2026"
+  date: 2026-05-18
+
 - text: "Invited talk at HEDLA2026 – High Energy Density Laboratory Astrophysics"
+  link: "https://www.ile.osaka-u.ac.jp/hedla2026/"
   extra_text: "Yokohama, Japan. April 2026"
   date: 2026-04-20
 
 - text: "MSCA Postdoctoral Fellowship 2026 awarded – score 99/100 (top 1.83%)"
+  link: "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2025-PF-01-01?isExactMatch=true&status=31094501,31094502&programmePeriod=2021%20-%202027&frameworkProgramme=43108390&programmePart=43108473&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate"
   extra_text: "Marie Skłodowska-Curie Actions. February 2026"
   date: 2026-02-01
 
