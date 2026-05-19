@@ -26,7 +26,7 @@ news_items:
   date: 2026-04-20
 
 - text: "MSCA Postdoctoral Fellowship 2026 awarded – score 99/100 (top 1.83%)"
-  link: "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2025-PF-01-01?isExactMatch=true&status=31094501,31094502&programmePeriod=2021%20-%202027&frameworkProgramme=43108390&programmePart=43108473&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate"
+  link: "https://cordis.europa.eu/project/id/101271750"
   extra_text: "Marie Skłodowska-Curie Actions. February 2026"
   date: 2026-02-01
 
