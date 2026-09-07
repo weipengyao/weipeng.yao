@@ -1,14 +1,18 @@
 ---
-title: "Ultraintense Laser Absorption and γ-ray Synchrotron Radiation in Near-critical Density Plasmas"
+title: "Ultraintense laser absorption and γ-ray synchrotron radiation in near critical density plasmas"
 authors:
-- H. X. Chang
-- B. Qiao
-- W. Yao et al.
-date: "2017-01-01"
+- "H. X. Chang"
+- "B. Qiao"
+- "Y. X. Zhang"
+- "Z. Xu"
+- "W. P. Yao"
+- "C. T. Zhou"
+- "X. T. He"
+date: "2017-04-19"
 
 publication: "Physics of Plasmas"
 
 links:
-    publisher: https://pubs.aip.org/aip/pop/article/24/4/043111/907640
+    publisher: https://doi.org/10.1063/1.4981213
 
 ---

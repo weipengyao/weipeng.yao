@@ -1,13 +1,58 @@
 ---
-title: "Characterization and Performance of the Apollon Main Short-pulse Laser Beam Following its Commissioning at 2 PW Level"
+title: "Characterization and performance of the Apollon main short-pulse laser beam following its commissioning at 2 PW level"
 authors:
-- W. Yao
-- et al.
-date: "2025-01-01"
+- "Weipeng Yao"
+- "Ronan Lelièvre"
+- "Itamar Cohen"
+- "Tessa Waltenspiel"
+- "Amokrane Allaoua"
+- "Patrizio Antici"
+- "Yohann Ayoul"
+- "Arie Beck"
+- "Audrey Beluze"
+- "Christophe Blancard"
+- "Daniel Cavanna"
+- "Mélanie Chabanis"
+- "Sophia N. Chen"
+- "Erez Cohen"
+- "Philippe Cossé"
+- "Quentin Ducasse"
+- "Mathieu Dumergue"
+- "Fouad El Hai"
+- "Christophe Evrard"
+- "Evgeny Filippov"
+- "Antoine Freneaux"
+- "Donald Cort Gautier"
+- "Fabrice Gobert"
+- "Franck Goupille"
+- "Mickael Grech"
+- "Laurent Gremillet"
+- "Yoav Heller"
+- "Emmanuel d'Humières"
+- "Hanna Lahmar"
+- "Livia Lancia"
+- "Nathalie Lebas"
+- "Ludovic Lecherbourg"
+- "Stéphane Marchand"
+- "Damien Mataja"
+- "Gabriel Meyniel"
+- "David Michaeli"
+- "Dimitris Papadopoulos"
+- "Frédéric Perez"
+- "Sergey Pikuz"
+- "Ishay Pomerantz"
+- "Patrick Renaudin"
+- "Lorenzo Romagnani"
+- "François Trompier"
+- "Edouard Veuillot"
+- "Thibaut Vinchon"
+- "François Mathieu"
+- "Julien Fuchs"
+date: "2025-04-11"
 
 publication: "Physics of Plasmas"
 
 links:
-    publisher: https://pubs.aip.org/aip/pop/article/32/4/043106/3343603
+    publisher: https://doi.org/10.1063/5.0252874
 
 ---

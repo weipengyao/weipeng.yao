@@ -5,7 +5,7 @@ authors:
 - W. Yao et al.
 date: "2024-04-17"
 
-publication: "Under Review in Physical Review Letters"
+publication: "arXiv preprint"
 
 links:
     arxiv: https://arxiv.org/abs/2404.11321

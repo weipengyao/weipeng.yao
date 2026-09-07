@@ -1,13 +1,20 @@
 ---
-title: "Relay Transport of Relativistic Flows in Extreme Magnetic Fields of Stars"
+title: "Relay transport of relativistic flows in extreme magnetic fields of stars"
 authors:
-- W. Yao
-- et al.
-date: "2017-01-01"
+- "W. P. Yao"
+- "B. Qiao"
+- "Z. Xu"
+- "H. Zhang"
+- "H. X. Chang"
+- "C. T. Zhou"
+- "S. P. Zhu"
+- "X. G. Wang"
+- "X. T. He"
+date: "2017-08-14"
 
 publication: "Physics of Plasmas"
 
 links:
-    publisher: https://pubs.aip.org/aip/pop/article/24/2/023107/913856
+    publisher: https://doi.org/10.1063/1.4996903
 
 ---

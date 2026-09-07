@@ -1,14 +1,18 @@
 ---
-title: "Magnetic X Points Disturbed by the In-plane Electric Fields"
+title: "Magnetic X points disturbed by the in-plane electric fields"
 authors:
-- Z. Xu
-- B. Qiao
-- W. Yao et al.
-date: "2017-01-01"
+- "Z. Xu"
+- "B. Qiao"
+- "W. P. Yao"
+- "H. X. Chang"
+- "C. T. Zhou"
+- "S. P. Zhu"
+- "X. T. He"
+date: "2017-08-10"
 
 publication: "Physics of Plasmas"
 
 links:
-    publisher: https://pubs.aip.org/aip/pop/article/24/8/082117/907440
+    publisher: https://doi.org/10.1063/1.4997609
 
 ---

@@ -1,13 +1,20 @@
 ---
-title: "Characterization of the Stability and Dynamics of a Laser-produced Plasma Expanding Across a Strong Magnetic Field"
+title: "Characterization of the stability and dynamics of a laser-produced plasma expanding across a strong magnetic field"
 authors:
-- W. Yao
-- et al.
-date: "2022-03-01"
+- "Weipeng Yao"
+- "Julien Capitaine"
+- "Benjamin Khiar"
+- "Tommaso Vinci"
+- "Konstantin Burdonov"
+- "Jérôme Béard"
+- "Julien Fuchs"
+- "Andrea Ciardi"
+date: "2022-03-11"
 
 publication: "Matter and Radiation at Extremes"
 
 links:
-    publisher: https://pubs.aip.org/aip/mre/article/7/2/024402/2837965
+    arxiv: https://arxiv.org/abs/2105.13800
+    publisher: https://doi.org/10.1063/5.0058306
 
 ---

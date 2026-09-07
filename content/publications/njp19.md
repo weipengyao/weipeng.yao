@@ -1,13 +1,21 @@
 ---
-title: "High-flux High-energy Ion Beam Production from Stable Collisionless Shock Acceleration by Intense Petawatt-Picosecond Laser Pulses"
+title: "High-flux high-energy ion beam production from stable collisionless shock acceleration by intense petawatt-picosecond laser pulses"
 authors:
-- H. He
-- W. Yao et al.
-date: "2019-03-01"
+- "H He"
+- "B Qiao"
+- "X F Shen"
+- "W P Yao"
+- "Y Xie"
+- "C T Zhou"
+- "X T He"
+- "S P Zhu"
+- "W B Pei"
+- "S Z Fu"
+date: "2019-03-28"
 
 publication: "New Journal of Physics"
 
 links:
-    publisher: https://iopscience.iop.org/article/10.1088/1367-2630/ab0a62
+    publisher: https://doi.org/10.1088/1367-2630/ab0a8c
 
 ---

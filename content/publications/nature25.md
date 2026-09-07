@@ -3,9 +3,9 @@ title: "Efficient Ion Re-acceleration in Laboratory-produced Interpenetrating Co
 authors:
 - W. Yao
 - et al.
-date: "2025-01-01"
+date: "2025-08-27"
 
-publication: "Under Review in Nature"
+publication: "arXiv preprint"
 
 links:
     arxiv: https://arxiv.org/abs/2508.20303

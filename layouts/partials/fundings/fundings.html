@@ -1,0 +1,18 @@
+<div class="fundings" id="fundings">
+    <ul class="news_list">
+        {{ range .Params.funding_items }}
+        <li>
+            <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"><strong>{{ .acronym }}</strong></a>
+            &mdash; {{ .title }}
+            {{ with .programme }}
+            <div class="main_color"><strong>Funded under {{ . }}</strong></div>
+            {{ end }}
+            <div class="secondary_font text-muted">
+                {{ .funder }} &middot; Grant agreement {{ .grant_id }}<br>
+                {{ .period }} &middot; {{ .host }}<br>
+                EU contribution: {{ .contribution }}
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>

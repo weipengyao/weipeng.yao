@@ -18,17 +18,18 @@ socials:
     google_scholar: "citations?user=gzxsWFIAAAAJ&hl=en"
 
 interests:
-    - High-power laser experiments
-    - Laser-driven magnetic field generation
-    - Laser-driven secondary sources
-    - PIC / MHD / hybrid simulations
-    - Magnetized plasma physics
-    - Weakly collisional shock transport
-    - Collisionless shock acceleration
-    - Shock-turbulent interaction
     - Laboratory astrophysics
     - Cosmic-ray origin and transport
- 
+    - Magnetized plasma physics
+    - Collisionless shock acceleration
+    - Weakly collisional shock transport
+    - Shock-turbulent interaction
+    - High-power laser experiments
+    - Magnetic field generation via inverse Faraday effects
+    - laser-driven magnetized turbulent characterisation
+    - Laser-driven secondary sources
+    - PIC / MHD / hybrid simulations
+
 
 affiliations:
     - affiliation:

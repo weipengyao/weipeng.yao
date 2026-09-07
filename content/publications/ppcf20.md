@@ -1,14 +1,20 @@
 ---
-title: "Numerical Study of the Knot Structure in Scaled Protostellar Jets by Laboratory Laser-driven Plasmas"
+title: "Numerical study of the knot structure in scaled protostellar jets by laboratory laser-driven plasmas"
 authors:
-- Z. Lei
-- Z. H. Zhao
-- W. Yao et al.
-date: "2020-09-01"
+- "Z Lei"
+- "Z H Zhao"
+- "W P Yao"
+- "Y Xie"
+- "J L Jiao"
+- "C T Zhou"
+- "S P Zhu"
+- "X T He"
+- "B Qiao"
+date: "2020-08-10"
 
 publication: "Plasma Physics and Controlled Fusion"
 
 links:
-    publisher: https://iopscience.iop.org/article/10.1088/1361-6587/aba0b3
+    publisher: https://doi.org/10.1088/1361-6587/aba4be
 
 ---

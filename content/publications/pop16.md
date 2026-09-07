@@ -1,13 +1,17 @@
 ---
-title: "Optimization of the Combined Proton Acceleration Regime with a Target Composition Scheme"
+title: "Optimization of the combined proton acceleration regime with a target composition scheme"
 authors:
-- W. Yao
-- et al.
-date: "2016-01-01"
+- "W. P. Yao"
+- "B. W. Li"
+- "C. Y. Zheng"
+- "Z. J. Liu"
+- "X. Q. Yan"
+- "B. Qiao"
+date: "2016-01-21"
 
 publication: "Physics of Plasmas"
 
 links:
-    publisher: https://pubs.aip.org/aip/pop/article/23/5/053103/905553
+    publisher: https://doi.org/10.1063/1.4940331
 
 ---

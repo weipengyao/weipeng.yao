@@ -1,19 +1,35 @@
 ---
-title: "Enhanced Energy, Conversion Efficiency and Collimation of Protons Driven by High-Contrast and Ultra-Short Laser Pulses"
+title: "Enhanced Energy, Conversion Efficiency and Collimation of Protons Driven by High-Contrast and Ultrashort Laser Pulses"
 authors:
-- Yao, W.
-- Lelièvre, R.; Waltenspiel, T.; Cohen, I.; Allaoua, A.; Beck, A.; Cohen, E.; Davoine, X.; D'Humieres, E.; Ducasse, Q.; Filippov, E.; Gautier, C.; Gremillet, L.; Koseoglou, P.; Michaeli, D.; Papadopoulos, D.; Pikuz, S.; Pomerantz, I.; Trompier, F.; Yuan, Y.; Mathieu, F.; Fuchs, J.
-date: "2024-05-27"
+- "Weipeng Yao"
+- "Ronan Lelièvre"
+- "Tessa Waltenspiel"
+- "Itamar Cohen"
+- "Amokrane Allaoua"
+- "Patrizio Antici"
+- "Arie Beck"
+- "Erez Cohen"
+- "Xavier Davoine"
+- "Emmanuel d’Humières"
+- "Quentin Ducasse"
+- "Evgeny Filippov"
+- "Cort Gautier"
+- "Laurent Gremillet"
+- "Pavlos Koseoglou"
+- "David Michaeli"
+- "Dimitrios Papadopoulos"
+- "Sergey Pikuz"
+- "Ishay Pomerantz"
+- "Francois Trompier"
+- "Yuran Yuan"
+- "Francois Mathieu"
+- "Julien Fuchs"
+date: "2024-07-12"
 
 publication: "Applied Sciences"
 
 links:
-    publisher: https://www.mdpi.com/2076-3417/14/14/6101
-    # arxiv: https://arxiv.org/abs/2211.06036
+    publisher: https://doi.org/10.3390/app14146101
     preprint: https://www.preprints.org/manuscript/202405.1784/v1
-    # pdf: https://www.preprints.org/manuscript/202405.1784/v1
-    # code: https://github.com/hadisinaee/avicenna
-    # slides: https://github.com/hadisinaee/avicenna
-    # video: https://github.com/hadisinaee/avicenna
 
 ---

@@ -1,13 +1,20 @@
 ---
-title: "The Baryon Loading Effect on Relativistic Astrophysical Jet Transport in the Interstellar Medium"
+title: "The baryon loading effect on relativistic astrophysical jet transport in the interstellar medium"
 authors:
-- W. Yao
-- et al.
-date: "2018-05-01"
+- "W P Yao"
+- "B Qiao"
+- "Z Xu"
+- "H Zhang"
+- "Z H Zhao"
+- "H X Chang"
+- "C T Zhou"
+- "S P Zhu"
+- "X T He"
+date: "2018-05-31"
 
 publication: "New Journal of Physics"
 
 links:
-    publisher: https://iopscience.iop.org/article/10.1088/1367-2630/aac0d9
+    publisher: https://doi.org/10.1088/1367-2630/aac5b8
 
 ---
